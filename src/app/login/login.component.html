@@ -1,0 +1,24 @@
+<div class="container-fluid ">
+<div class="login-page">
+
+  <div>
+      <p style="font-style: oblique;
+      font-family: cursive;">Welcome to Shorten URL</p>
+    <form>
+        <button class="loginBtn loginBtn--google">
+            Login with Google
+          </button>
+    </form>
+  </div>
+  <!--
+  <button class="loginBtn loginBtn--facebook">
+      Login with Facebook
+    </button>
+  -->
+</div>
+</div>
+<script>
+  $('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
+</script>
